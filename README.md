@@ -126,23 +126,31 @@ Discount levels were analyzed to understand their relationship with profitabilit
 ## 📂 Repository Structure
 
 ```text
-GLOBAL-SUPERSTORE-SALES-PERFORMANCE/
+Global-Superstore-Sales-Performance/
 │
-├── Python/
-│   └── Global_Superstore_Data_Cleaning.ipynb
+├── output/
+│   ├── superstore_cleaned.csv
+│   └── superstore_mysql.csv
 │
-├── SQL/
+├── power_bi/
+│   └── GLOBAL SUPERSTORE — SALES PERFORMANCE.pbix
+│
+├── python/
+│   ├── 01_data_cleaning.py
+│   ├── 02_data_quality.py
+│   ├── 03_investigate.py
+│   ├── 04_data_cleaning.py
+│   ├── 05_validate_cleaned_data.py
+│   ├── 06_prepare_mysql.py
+│   └── 07_import_mysql.py
+│
+├── screenshots/
+│   └── dashboard_GS.png
+│
+├── sql/
 │   └── Global_Superstore_Sales_Analysis.sql
 │
-├── PowerBI/
-│   └── Global_Superstore_Sales_Performance.pbix
-│
-├── Dashboard/
-│   └── Global_Superstore_Dashboard.png
-│
-├── Data/
-│   └── README.md
-│
+├── .gitignore
 └── README.md
 
 
